@@ -6,17 +6,19 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          shape: CircleBorder(eccentricity: 2),
+          shape: CircleBorder(eccentricity: 1),
           backgroundColor: Colors.deepPurple,
           title: Center(
               child: Text(
             "Dice Roller",
             style: TextStyle(
-                color: Colors.pink, fontWeight: FontWeight.bold, fontSize: 28),
+                color: Colors.lightBlue.shade100,
+                fontWeight: FontWeight.bold,
+                fontSize: 28),
           )),
         ),
         backgroundColor: Colors.deepPurple,
-        body: GradientContainer(Colors.deepPurple, Colors.pink),
+        body: GradientContainer(Colors.deepPurple, Colors.lightBlue.shade100),
       ),
     ),
   );
