@@ -6,7 +6,7 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          shape: CircleBorder(eccentricity: 1),
+          shape: const CircleBorder(eccentricity: 1),
           backgroundColor: Colors.deepPurple,
           title: Center(
               child: Text(
